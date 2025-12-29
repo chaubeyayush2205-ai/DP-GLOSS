@@ -1,21 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>DP GLOSS</title>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>DP GLOSS</title>
+
+<style>
+body{
+  font-family: Arial;
+  margin:0;
+  background:#fff0f6;
+}
+
+/* Header */
+.header{
+  background:#ff4da6;
+  color:white;
+  text-align:center;
+  padding:30px;
+}
+
+.logo{
+  font-size:38px;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+/* Sections */
+section{
+  padding:25px;
+}
+
+/* Products */
+.products{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:15px;
+}
+
+.card{
+  background:white;
+  border-radius:12px;
+  padding:12px;
+  text-align:center;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+button{
+  border:none;
+  padding:8px 14px;
+  border-radius:20px;
+  cursor:pointer;
+  font-weight:bold;
+  margin-top:5px;
+}
+
+.buy{
+  background:#ff66b3;
+  color:white;
+}
+
+/* Footer */
+.footer{
+  background:#ff4da6;
+  color:white;
+  text-align:center;
+  padding:10px;
+  margin-top:30px;
+}
+</style>
+
 </head>
+
 <body>
 
-<h1>DP GLOSS</h1>
-<p>Welcome to our Lip Gloss Brand ✨</p>
+<div class="header">
+  <div class="logo">💄 DP GLOSS</div>
+  <p>Premium Lip Gloss Brand ✨</p>
+</div>
 
+<section>
 <h2>About Us</h2>
-<p>We manufacture premium quality lip gloss products.</p>
+<p>
+DP GLOSS ek premium lip gloss brand hai jo soft, shiny aur long-lasting lip gloss banata hai.
+</p>
+</section>
 
+<section>
+<h2>Our Products</h2>
+
+<div class="products">
+
+<div class="card">
+  <h3>Pink Shine Gloss</h3>
+  <p>₹199</p>
+  <button class="buy">Buy Now</button>
+</div>
+
+<div class="card">
+  <h3>Rose Glow Gloss</h3>
+  <p>₹249</p>
+  <button class="buy">Buy Now</button>
+</div>
+
+<div class="card">
+  <h3>Clear Gloss</h3>
+  <p>₹149</p>
+  <button class="buy">Buy Now</button>
+</div>
+
+<div class="card">
+  <h3>Shimmer Gloss</h3>
+  <p>₹299</p>
+  <button class="buy">Buy Now</button>
+</div>
+
+</div>
+</section>
+
+<section>
 <h2>Contact Us</h2>
-<p>Email: contact@dpgloss.com</p>
+<p>📩 Email: contact@dpgloss.com</p>
+<p>📞 Phone: +91 XXXXX XXXXX</p>
+</section>
+
+<div class="footer">
+  © 2025 DP GLOSS — All Rights Reserved
+</div>
 
 </body>
 </html>
-
